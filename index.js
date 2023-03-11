@@ -1,7 +1,7 @@
 const array1 = [1, 5, 2, 3];
 const array2 = [3, 5, 6, 7, 8, 13];
-let count = 0;
 function aggregrate(first, second) {
+  let count = 0;
   const array3 = [];
   for (let elem of second) {
     if (first[count] != undefined) {
