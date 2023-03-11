@@ -13,6 +13,6 @@ function aggregrate(first, second) {
       array3.push(elem);
     }
   }
-  console.log(...array3);
+  return array3;
 }
-aggregrate(array1, array2);
+console.log(aggregrate(array1, array2));
